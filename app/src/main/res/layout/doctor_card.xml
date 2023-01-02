@@ -6,7 +6,7 @@
     <data>
         <variable
             name="doctor"
-            type="com.example.pro_reproductivehealth.models.DoctorCard" />
+            type="com.example.pro_reproductivehealth.models.Doctor" />
     </data>
 
     <LinearLayout
@@ -23,6 +23,9 @@
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold|italic" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

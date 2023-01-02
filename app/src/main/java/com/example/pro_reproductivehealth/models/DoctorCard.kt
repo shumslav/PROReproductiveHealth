@@ -2,7 +2,7 @@ package com.example.pro_reproductivehealth.models
 
 import com.example.pro_reproductivehealth.enums.DaysOfWeek
 
-data class DoctorCard(
+data class Doctor(
     val fio: String,
     val workingDays: List<DaysOfWeek>,
     val startWorkingTime: String,
